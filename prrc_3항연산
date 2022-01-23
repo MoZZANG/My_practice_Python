@@ -1,0 +1,8 @@
+# 3항 연산
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = (a if(a<b) else b) if((a if(a<b) else b)<c) else c  # 가장 작은 값을 출력
+# d = (a if a>b else b) if ((a if a>b else b)>c) else c # 가장 큰 값을 출력
+print(int(d))
