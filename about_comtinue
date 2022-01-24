@@ -1,0 +1,7 @@
+# 3의 배수는 출력되지 않도록 하기
+
+n = int(input())
+for i in range(1, n+1):
+    if i%3 == 0:
+        continue  # continue 아래쪽을 실행하지 말고, 다음 단계의 반복을 계속하는 것
+    print(i, end=' ')
