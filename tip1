@@ -1,3 +1,4 @@
 a = int(input().split()) 으로 입력하면 오류난다. # 왜지?
 
 a = list(map(int, input().split())) 으로 입력하면 리스트 형태로 된 int값을 넣을 수 있다.
+
