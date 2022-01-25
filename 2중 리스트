@@ -1,0 +1,11 @@
+# 2중 리스트 # x,y 좌표 활용 시 필요
+
+location = []
+
+for i in range(20):
+    location.append([])
+    for j in range(20):
+        location[i].append(0)
+        
+
+# 오늘도 하나 배워갑니다.
