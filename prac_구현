@@ -30,3 +30,5 @@ for plan in plans:
     x, y = nx, ny
 
 print(x, y)
+
+출처 : '이것이 취업을 위한 코딩 테스트다 with 파이썬' by 나동빈
