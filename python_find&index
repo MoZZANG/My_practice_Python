@@ -21,3 +21,24 @@ Ex2)
 
 *** find 함수는 찾는 값이 없을 때 -1을 출력한다.***
 *** find 함수는 찾는 값의 위치를 반환한다.***
+
+ 
+<문제푼 것>
+w = input()
+alpa = 'abcdefghijklmnopqrstuvwxyz'
+
+for i in alpa:
+  if i in w:
+    print(w.index(i), end = ' ')
+  else:
+    print(-1, end = ' ')
+    
+-------------------------------------------
+
+w = input()
+alpa = 'abcdefghijklmnopqrstuvwxyz'
+
+for i in alpa:
+    print(w.find(i), end = ' ')
+    
+점선 위의 예시를 find를 사용하면 더 간결하게 코드를 작성할 수 있음을 깨달았따!!
